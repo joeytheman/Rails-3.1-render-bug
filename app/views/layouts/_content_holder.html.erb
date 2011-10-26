@@ -1,0 +1,10 @@
+H1 title text should be rendered below with 'yield :h1_text':
+<div class="box">
+<h1><%= yield :h1_text %></h1>
+</div>
+Normal yield should be rendered below with 'yield':
+<div class="box">
+<%= yield %>
+</div>
+
+Click "Remote Foods Index" to see that both boxes contain content from 'yield'.
